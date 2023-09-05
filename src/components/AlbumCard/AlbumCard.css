@@ -1,0 +1,46 @@
+.album-card {
+    border: 1px solid #2A2A2A;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: calc(20% - 20px);
+    text-align: left;
+    background-color: #2A2A2A;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    display: inline-block; 
+    vertical-align: top; 
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.album-card img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.album-card h3 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 1.1rem;
+    margin-top: 25px;
+    color: white;
+}
+
+.album-card p {
+    font-family: 'Inter', sans-serif;
+    color: #A7A7A7;
+    font-size: 0.98rem;
+    margin: 5px 0;
+}
+
+.album-card p:first-child {
+    font-weight: bold;
+}
+
+
+.album-card:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+

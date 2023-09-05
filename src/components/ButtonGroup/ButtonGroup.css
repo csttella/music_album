@@ -1,0 +1,25 @@
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.button-group button {
+    background-color: #1ED760;
+    border-radius: 5px;
+    color: #fff;
+    padding: 16px 100px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 1.5rem;
+}
+
+.button-group button:hover {
+    background-color: #1ed75fa1;
+}
